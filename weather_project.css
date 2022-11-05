@@ -1,0 +1,44 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 80vh;
+    padding-top: 10px;
+    justify-items: center;
+    align-items: center;
+    box-shadow: 1px 1px 5px grey;
+    margin:auto;
+    margin-top: 40px;
+}
+#head{
+    width: 78vw;
+    padding-left: 10px;
+    background-color: darkblue;
+    color: aliceblue;
+    font-size: 30px;
+    
+}
+#form{
+    margin: auto;   
+}
+#form >input{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+#form>button{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 40px;
+
+
+}
+#form>button:hover{
+    background-color:darkblue;
+    color: aliceblue;
+    font-size: 20px;
+}
